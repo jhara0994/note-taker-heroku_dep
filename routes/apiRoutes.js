@@ -1,29 +1,6 @@
 const fs = require("fs")
 const router = require("express").Router()
 const uuid = require("uuid")
-const util = require('util')
-
-// helper variables
-const readFromFile = util.promisify(fs.readFile)
-const readAndDelete = (id, file) => {
-    fs.readFile(file, 'utf8', (err, data) => {
-        if(err) {
-            console.error(err)
-        } else {
-            const parsedData = JSON.parse(data)
-            parsedData.forEach((note, index) => {
-                if(note.id === id) {
-                    parsedData.splice(index, 1)
-                }
-            })
-
-            writeToFile(file, parsedData)
-        }
-
-    })
-}
-
-
 
 // GET route to pull in notes
 router.get("/notes", (req, res) => {
