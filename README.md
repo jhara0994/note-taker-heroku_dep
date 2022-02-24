@@ -15,6 +15,8 @@
 ### To use this application from the command line, clone the repository on github and run "npm i" to install all dependencies. 
 ## Usage:
 ### This application is intended to help a user plan their day using a note system. Notes can be viewed, entered or deleted as necessary helping the user remember important To-Do's.
+<img width="1371" alt="note-taker_bg" src="https://user-images.githubusercontent.com/92455472/155588329-5ab2727f-aa17-47e7-8de3-9ca1302ffe8e.png">
+
 ## License:
 ### MIT
 ## Contributing:
