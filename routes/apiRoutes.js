@@ -20,32 +20,6 @@ router.post("/notes", (req, res) => {
     res.json(data)
 })
 
-
-
-
-// GET route to pull in notes
-// router.get("/", (req, res) => {
-//     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
-// })
-
-// POST route to create new note
-// router.post("/", (req, res) => {
-//     const {title, text} = req.body
-
-//     if (title && text) {
-//         const newNote = {
-//             title, 
-//             text,
-//             id: uuid(),
-//         }
-
-//         readAndAppend(newNote, './db/db.json')
-//         res.json(`Note added!`)
-//     } else {
-//         res.error(`Note was not added`)
-//     }
-// })
-
 // DELETE route to clear unnecessary notes
 // router.delete("/notes:id", (req, res) => {
 //     let noteId = req.params.id.toString()

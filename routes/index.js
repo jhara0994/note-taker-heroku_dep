@@ -1,7 +1,6 @@
 const { builtinModules } = require("module")
 const path = require("path")
 const router = require("express").Router()
-// const apiRoutes = require('./api/apiRoutes')
 
 router.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, '../public/index.html'))
