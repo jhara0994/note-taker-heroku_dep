@@ -22,6 +22,6 @@
 ## Test-Instructions:
 ### To test the application, simply click this deployed link: https://stark-cliffs-81817.herokuapp.com/ and use the program from heroku. If you would like to use the app locally, run "npm start" from your command-line after installing all dependencies.
 ## Questions:
-Github Username: https://github.com/jhara0994
-Email: jharalson29@gmail.com
-For questions concerning this README Generator, please reach out on Github or email.
+### Github Username: https://github.com/jhara0994
+### Email: jharalson29@gmail.com
+### For questions concerning this Daily Note Taker, please reach out on Github or email.
